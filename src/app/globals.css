@@ -1,0 +1,38 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design token colour palette – inspired by Affirm */
+:root {
+  --color-primary: #1A73E8;        /* Governor Bay – primary blue */
+  --color-bg-dark: #212121;     /* Bunker – dark background */
+  --color-bg-light: #F5F5F5;     /* Ghost – light gray */
+  --color-text-on-dark: #FFFFFF;/* White – text on dark */
+  --color-success: #00C853;     /* Mint – success */
+  --color-error: #D32F2F;       /* Crimson – error */
+  --color-accent-gold: #D4AF37;  /* Optional premium gold accent */
+}
+
+/* Base typography – modern premium feel */
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-on-dark);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utility classes for micro‑animations */
+.ease-out {
+  transition: all 0.3s ease-out;
+}
+
+.hover\:glow:hover {
+  box-shadow: 0 0 12px 2px var(--color-primary);
+}

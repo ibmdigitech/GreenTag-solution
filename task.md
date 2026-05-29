@@ -1,0 +1,13 @@
+- [ ] Install Node.js (downloaded and extracted)
+- [ ] Run `npm install` to install project dependencies
+- [x] Configure Tailwind CSS and PostCSS
+- [x] Create global CSS and design tokens
+- [ ] Build UI components (header, footer, product cards, filters, buttons, etc.)
+- [ ] Implement pages (home, product catalog, product detail, cart, checkout, account)
+- [ ] Set up state management (Zustand stores for cart, wishlist, auth)
+- [ ] Add mock API utilities and sample data
+- [ ] Write unit and integration tests (Jest, Cypress)
+- [ ] Add CI workflow (`.github/workflows/ci.yml`)
+- [ ] Add Vercel deployment config (`vercel.json`)
+- [ ] Create README with setup instructions
+- [ ] Push all changes to GitHub repository
